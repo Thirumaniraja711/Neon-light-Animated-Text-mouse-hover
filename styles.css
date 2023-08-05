@@ -1,0 +1,35 @@
+/* Font StyleSheet*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:ital,wght@1,700&display=swap');
+
+/* For NO Scrolling*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+h1 {
+    font-size: 75px;
+    color: gray;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+h1:hover {
+    color: white;
+    /* text-shadow syntax : box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color];*/
+    text-shadow: 0 0 5px #1B9CFC,
+        0 0 25px #1B9CFC,
+        0 0 50px #1B9CFC,
+        0 0 100px #1B9CFC;
+}
